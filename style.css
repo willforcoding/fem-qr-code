@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+	font-family: "Outfit", sans-serif;
+	background-color: #D5E1EF;
+	display: grid;
+	height: 100vh;
+	place-items: center;
+
+}
+
+.card{
+	padding: 16px 16px 40px 16px;
+	max-width: 320px;
+	display: flex;
+	background-color: white;
+	flex-direction: column;
+	gap: 24px;
+	border-radius: 20px;
+}
+
+img{
+	width: 288px;
+	height: auto;
+	border-radius: 10px;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 1.2;
+}
+
+p{
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+}
+
+.caption{
+	max-width: 100%;
+	text-align: center;
+	display: flex;
+	gap: 16px;
+	flex-direction: column;
+}
+
+.attribution{
+	position: absolute;
+	bottom: 24px;
+}
